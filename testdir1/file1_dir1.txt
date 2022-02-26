@@ -1,0 +1,5 @@
+Back on your AWS server
+    a. Switch back to the 'main' branch.
+    b. Use a 'git pull' to retrieve all of the updates from GitHub on the main branch.
+    c. Verify your 'main' branch now has all of the changes that you had previously made in the 'test' branch.
+

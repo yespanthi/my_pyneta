@@ -1,0 +1,11 @@
+ feature bgp
+router bgp {{local_as}}
+address-family ipv4 unicast
+network {{advertises_route1}}
+network {{advertises_route2}}
+network {{advertises_route3}}
+neighbor {{peer1_ip}} remote-as {{peer1_as}}
+update-source loopback1
+ebgp-multihop 2
+address-family ipv4 unicast
+
